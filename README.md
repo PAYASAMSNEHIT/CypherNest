@@ -120,33 +120,29 @@ All of this lives in [`crypto.js`](./CypherNest/SecVault_Rjsx/securevault-fronte
 
 ```
 CypherNest/
-├── app.py                      # Flask API — auth, vault, profile routes
-├── otp.py                      # Email OTP generator
-├── phrase.py                   # 6-word recovery phrase generator
-├── requirements.txt
-└── SecVault_Rjsx/
-    └── securevault-frontend/
-        ├── package.json
-        └── src/
-            ├── api.js          # axios client
-            ├── crypto.js       # PBKDF2 / AES-GCM / VEK wrapping
-            ├── App.jsx
-            ├── main.jsx
-            ├── register/Register.jsx
-            ├── verify-email/VerifyEmail.jsx
-            ├── login/Login.jsx
-            ├── login-key/LoginKey.jsx
-            └── home/
-                ├── Home.jsx
-                ├── Sidebar.jsx
-                ├── VaultView.jsx
-                ├── Passwords.jsx        + PasswordEditor.jsx
-                ├── AtmCards.jsx         + AtmCardEditor.jsx
-                ├── IdentityCards.jsx    + IdentityEditor.jsx
-                ├── Notes.jsx
-                ├── Profile.jsx
-                ├── SecurityDashboard.jsx
-                └── SecurityCenter.jsx
+├── .gitignore
+├── CypherNest_Backend/
+│   ├── app.py
+│   ├── otp.py
+│   ├── phrase.py
+│   ├── requirements.txt
+│   └── .env
+└── CypherNest_Frontend/
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    └── src/
+        ├── App.jsx
+        ├── api.js
+        ├── crypto.js
+        ├── main.jsx
+        ├── style.css
+        ├── assets/
+        ├── home/
+        ├── login/
+        ├── login-key/
+        ├── register/
+        └── verify-email/
 ```
 
 ## Getting Started
