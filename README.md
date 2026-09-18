@@ -297,6 +297,3 @@ All endpoints are served from `app.py`. Vault and profile routes require an auth
 - 🔑 WebAuthn / FIDO2 hardware security key support
 - 📈 Audit logging and anomaly alerts on vault access
 
-## License
-
-No license has been added yet. Until one is added, all rights are reserved by default — add a `LICENSE` file (e.g. MIT, Apache-2.0) if you want others to use, modify, or contribute to this project.
