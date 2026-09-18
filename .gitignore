@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+.venv/
+secva/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# AWS private keys
+*.pem
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build files
+dist/
+build/
+
+# Generated authentication files
+google_authenticator.png
+
+# Logs
+*.log

@@ -1,0 +1,9 @@
+Flask
+flask-cors
+mysql-connector-python
+bcrypt
+pyotp
+qrcode
+PyJWT
+Pillow
+python-dotenv
